@@ -1,0 +1,7 @@
+[tools]
+python = "3.7.17"
+uv = "latest"
+
+[tasks.setup]
+description = "Setup this project"
+run = ["uv sync"]
